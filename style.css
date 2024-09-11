@@ -1,0 +1,175 @@
+ *{
+    color: #ffffffd2;
+
+}
+#navbar1{
+    height: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar1 img{
+    height: 30px;
+    width: 140px;
+}
+#navbar2{
+    height: 60px;
+    background-color:#211e1e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+#navbar2 a{
+    color: white;
+    font-size: 1.6rem;
+}
+.body-1{
+    display: flex;
+}
+.body-1 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    margin-top: 30px;
+}
+.body-1 h1{
+    margin-top: 130px;
+    font-size: 50px;
+}
+.body-container{
+background-image: url(background\ img.jpg);
+height: 1500px;
+}
+#Personal-Information,#Education ,#Skills{
+    height: 300px;
+    width: 100%;
+}
+
+#Personal-Information h1{
+    font-size: 3rem;
+    margin-left: 80px;
+}
+#skills{
+    display: block;
+}
+
+ul li{
+    font-size: 2rem;
+    margin-left: 90px;
+}
+#Education h1{
+    font-size: 3rem;
+    margin-left: 80px;
+}
+#skills-title{
+    font-size: 3rem;
+    margin-left: 80px;
+    cursor: pointer;
+}
+#Experience{
+    height: 200px;
+    width: 100%;
+}
+#Experience h1{
+    font-size: 3rem;
+    margin-left: 80px;
+}
+footer{
+    height: 50px;
+    background-color: #211e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ /* Make the website fully responsive */
+ @media (max-width: 768px) {
+    #navbar1, #navbar2 {
+        justify-content: space-around;
+    }
+
+    #navbar2 a {
+        font-size: 1.2rem; /* Make the navbar links smaller on smaller screens */
+        padding: 10px 0;
+    }
+
+    .body-1 {
+        justify-content: space-around;
+    }
+
+    .body-1 img {
+        height: 150px;
+        width: 150px;
+        margin-top: 20px;
+    }
+
+    .body-1 h1 {
+        /* font-size: 36px; /* Make name smaller on smaller screens */
+         margin-top: 70px;
+         margin-right: 30px;
+        justify-content: space-around;
+    }
+
+    .body-container {
+        height: auto; /* Ensure container height adjusts based on content */
+        background-size: cover;
+        justify-content: space-around;
+    }
+
+    #body-content section h1 {
+        font-size: 1.5rem; /* Make section headers smaller */
+    }
+
+    #body-content ul {
+        padding-left: 20px;
+    }
+    #ul li {
+        justify-content: space-around;
+        font-size: 1rem;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    /* Further adjustments for very small screens like phones */
+    .body-1 img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .body-1 h1 {
+        font-size: 24px;
+    }
+
+    .body-content section h1 {
+        font-size: 1.2rem;
+    }
+
+    #navbar2 a {
+        font-size: 1rem;
+    }
+    ul li{
+        font-size: 1.3rem;
+        margin-left: 13px;
+    }
+    #Personal-Information h1{
+        margin-left:10px ;
+    }
+    #Education h1{
+        margin-left:10px ;
+    } 
+    #Skills h1{
+        margin-left:10px ;
+    }
+    #Experience h1{
+        margin-left:10px ;
+    }
+    #Personal-Information,#Education ,#Skills,#Experience{
+        height: 200PX;
+    }
+}/*
+ 
